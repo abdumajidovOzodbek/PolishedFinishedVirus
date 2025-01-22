@@ -1,2 +1,49 @@
-main {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.video-player {
+  flex: 3;
+  padding: 20px;
+  background: #000;
+}
+
+.episode-list {
+  flex: 1;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.episode-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.episode-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.episode-list li.active {
+  background-color: #ddd;
+  font-weight: bold;
 }
