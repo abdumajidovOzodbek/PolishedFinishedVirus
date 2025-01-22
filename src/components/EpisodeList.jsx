@@ -3,7 +3,7 @@ import React from 'react';
 const EpisodeList = ({ episodes, setCurrentEpisode, currentEpisode }) => {
   return (
     <div className="episode-list">
-      <h2>Episodes</h2>
+      <h2>Эпизоды</h2>
       <ul>
         {episodes.map((episode, index) => (
           <li 
